@@ -182,3 +182,13 @@
   background-color: black;
   transition-duration: 1s;
 }
+
+@media screen and (max-width: 1240px) {
+  .sidebar_user_icon {
+    display: none;
+  }
+  .sidebar_footer {
+    display: flex;
+    justify-content: center;
+  }
+}
