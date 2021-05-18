@@ -1,0 +1,14 @@
+
+.calendar_wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 1fr;
+  margin: auto;
+}
+
+.calendar_wrapper > div {
+  border: 0.1px solid rgb(219, 219, 219);
+  padding: 5px;
+}

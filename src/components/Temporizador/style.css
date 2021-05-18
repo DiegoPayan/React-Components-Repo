@@ -1,0 +1,83 @@
+.temp_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp_background {
+  width: 35%;
+  height: 120px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberTemplate {
+  width: 50px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.temp_divier {
+  width: 50px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: red;
+  justify-content: center;
+  font-size: 60px;
+}
+
+/* */
+.numberTemplate_1 {
+  width: 10px;
+  height: 80px;
+}
+
+.numberTemplate_1_1, .numberTemplate_1_2 {
+  margin: 1px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* */
+.numberTemplate_2 {
+  width: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.numberTemplate_2_1, .numberTemplate_2_2, .numberTemplate_2_3 {
+  margin: 1px;
+  width: 30px;
+  height: 8px;
+  border-radius: 5px;
+}
+
+/* */
+.numberTemplate_3 {
+  margin: 1px;
+  width: 10px;
+  height: 80px;  
+}
+
+.numberTemplate_3_1, .numberTemplate_3_2 {
+  margin: 1px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.stick_active {
+  background-color: #ff0000;
+}
+
+.stick_inactive {
+  background-color: #2e2e2e;
+}
